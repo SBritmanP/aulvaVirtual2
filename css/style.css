@@ -1,0 +1,92 @@
+*{
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+html {
+  background: url(../images/girl-3038974_1920.jpg) no-repeat center center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -moz-background-size:cover;
+  background-size: cover;
+}
+/* .header-nav{
+  background-color: #e4e5e0;
+  padding:0;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  opacity: 1;
+} */
+.main-nav ul{
+  margin-right: 25%;
+  background-color: #e4e5e0;
+}
+
+.main-nav ul li{
+  position: relative;
+  float: right;
+  display: flex;
+  /* display: inline-flex; */
+  justify-content:space-between;
+  padding:28px  20px ;
+  align-items: center;
+  top: -68px;
+}
+.main-nav ul li a{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration:none;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: #000;
+  font-size: 1.5em;
+}
+.main-nav ul li a:hover{
+  color: #eb0023;
+
+}
+.header-nav h1{
+  margin-top: 20px;
+  padding-left:11%;
+  font-size: 2.8em;
+}
+.main-img img{
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+.main-img div {
+  float: left;
+  height: 200px;
+  width:  400px;
+  position: absolute;
+  top: 270px;
+  left: 11%;
+}
+.main-img div p{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  color: black;
+  
+}
+.main-img .input {
+  float: left;
+  top:470px;
+  left: 11%;
+}
+
+.main-img div a{
+  padding: 10px;
+  border-radius: 10px;
+  font-weight:bold;
+  font-size:30px;
+  text-decoration:none;
+  padding:10px;
+  border-radius: 1px black solid;
+}
+
+
